@@ -3,10 +3,10 @@ using namespace std;
 
 class mahasiswa {
 
-private: 
+private:
     int nim;
     string nama;
-public :
+public:
     void inputdata() {
         cout << "Masukan NIM : ";
         cin >> nim;
@@ -17,8 +17,14 @@ public :
         cout << "\nNIM : " << nim << endl;
         cout << "Nama : " << nama << endl;
     }
-}
-
+};
+class matakuliah {
+private:
+     string kode;
+     string namamk;
+     int sks;
+public:
+};
 int main()
 {
     std::cout << "Hello World!\n";
