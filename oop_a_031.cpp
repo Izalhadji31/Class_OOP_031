@@ -36,7 +36,8 @@ void matakuliah::InputMK() {
     cout << "Masukan sks Mata Kuliah : ";
     cin >> sks;
 }
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
