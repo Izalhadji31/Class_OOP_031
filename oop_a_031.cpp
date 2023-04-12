@@ -13,6 +13,10 @@ public :
         cout << "Masukan Nama : ";
         cin >> nama;
     }
+    void tampildta() {
+        cout << "\nNIM : " << nim << endl;
+        cout << "Nama : " << nama << endl;
+    }
 };
 int main()
 {
