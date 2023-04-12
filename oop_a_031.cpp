@@ -39,5 +39,13 @@ void matakuliah::InputMK() {
 
 int main()
 {
-    
+    mahasiswa mhs;
+    matakuliah mk;
+
+    mhs.inputdata();
+    mhs.tampildata();
+
+    mk.InputMK();
+    mk.TampilMK();
+
 }
