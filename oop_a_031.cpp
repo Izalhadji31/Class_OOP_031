@@ -55,5 +55,4 @@ int main()
 
     mk.InputMK();
     mk.TampilMK();
-
 }
