@@ -24,8 +24,8 @@ private:
      string namamk;
      int sks;
 public:
-    void inputmk();
-    void tampilmk();
+    void InputMK();
+    void TampilMK();
 
 };
 int main()
