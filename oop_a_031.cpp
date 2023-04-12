@@ -28,6 +28,14 @@ public:
     void TampilMK();
 
 };
+void matakuliah::InputMK() {
+    cout << "\nMasukan Kode Mata Kuliah : ";
+    cin >> kode;
+    cout << "Masukan Nama Mata Kuliah : ";
+    cin >> namamk;
+    cout << "Masukan sks Mata Kuliah : ";
+    cin >> sks;
+}
 int main()
 {
     std::cout << "Hello World!\n";
