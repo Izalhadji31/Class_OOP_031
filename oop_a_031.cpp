@@ -18,6 +18,7 @@ public:
         cout << "Nama : " << nama << endl;
     }
 };
+
 class matakuliah {
 private:
      string kode;
@@ -28,6 +29,7 @@ public:
     void TampilMK();
 
 };
+
 void matakuliah::InputMK() {
     cout << "\nMasukan Kode Mata Kuliah : ";
     cin >> kode;
@@ -35,6 +37,12 @@ void matakuliah::InputMK() {
     cin >> namamk;
     cout << "Masukan sks Mata Kuliah : ";
     cin >> sks;
+}
+
+void matakuliah::TampilMK() {
+    cout << " Kode : " << kode << endl;
+    cout << "Nama Mata Kuliah : " << namamk << endl;
+    cout << "Jumlah sks  : " << sks << endl;
 }
 
 int main()
